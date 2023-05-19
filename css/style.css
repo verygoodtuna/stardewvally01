@@ -18,7 +18,10 @@
 
 
 .header {
-    height: 100px;
+    position: sticky;
+    top:0;
+    background: #ffffffb9;
+    z-index: 999;
 }
 
 .header .inner {
@@ -177,7 +180,7 @@
 }
 
 .main_content .tit {
-    margin: 0 auto 20px auto;
+    margin: 0 auto 30px auto;
 }
 
 .magin_coontent .tit inner {
@@ -189,11 +192,6 @@
     font-weight: 700;
     color: #555;
     margin: 0 0 10px 0;
-}
-
-.main_content .tit p{
-    font-size: 15px;
-    font-weight: 300;
 }
 
 .main_content .content {
@@ -211,6 +209,7 @@
 .main_content .content figure .box{
     margin: 0 0 20px 0;
     overflow: hidden;
+    border-radius: 25%;
 }
 
 .main_content .content figure strong{
